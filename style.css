@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+  font-family:  'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --color-1: hsl(179, 62%, 43%);
+  --color-2: hsl(71, 73%, 54%);
+  --color-3: hsl(204, 43%, 93%);
+  --color-4: hsl(218, 22%, 67%);
+  --color-5: #fff;
+  --color-6:hsla(179, 62%, 43%, 0.759);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-3);
+}
+
+.content{
+  width: 680px;
+  box-shadow: 0px 8px 28px -20px rgba(0,0,0,0.53);
+}
+
+.p1, .p2{
+  color: var(--color-4);
+  margin-bottom: 5px;
+}
+
+p{
+  color: #fff;
+}
+
+li{
+  color: #ffffff8c;
+}
+
+.upper-box{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-5);
+  gap: 4px;
+  padding: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1{
+  color: var(--color-1);
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  color: var(--color-2);
+  margin-bottom: 10px;
+}
+
+.bottom-box{
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-box h3{
+  color: var(--color-5);
+}
+
+.left-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-1);
+  width: 270px;
+  padding: 40px;
+  border-bottom-left-radius: 10px;
+  gap: 10px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+strong{
+  color: #fff;
+  font-size: 30px;
+}
+
+.price-text{
+  color: #ffffff83;
+}
+
+.button{
+  background-color: var(--color-2);
+  border-color: transparent;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  width: auto;
+  height: 50px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0px 20px 74px -10px rgba(0,0,0,0.53);
+  transition: 0.5s;
+}
+
+.button:hover{
+  opacity: 0.5;
+}
+
+.right-box{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-6);
+  list-style-type: none;
+  width: 270px;
+  padding: 40px;
+  border-bottom-right-radius: 10px;
+  gap: 15px;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2px;
+}
